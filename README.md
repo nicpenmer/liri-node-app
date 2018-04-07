@@ -2,15 +2,17 @@ LIRI-Node-App:
 
 Purpose:
 
-LIRI is a Language Intrepretation bot takes in a command and a query parameter and returns data.
+LIRI is a Language Intrepretation bot takes in a command and returns data.
 
 HOW TO: 
 
-To use this app you will need your own set of API keys for the Twitter and Spotify APIs.
+To use this app you will need a set of API keys for the Twitter and Spotify API.
 
 $ node liri.js + "Command"
 
-Commands: 'my-tweets': - Displays the last 20 tweets and when they were created of the specified Twitter handle.
+Commands: 
+
+'my-tweets': - Displays the last 20 tweets and when they were created of the specified Twitter handle.
 
 'spotify-this-song': - Displays detailed information about a given song.
 
